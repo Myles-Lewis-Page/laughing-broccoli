@@ -26,6 +26,8 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
 
+gem "iconv", "~> 1.0.3"
+
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
 # Use ActiveModel has_secure_password
