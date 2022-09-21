@@ -5,7 +5,7 @@ ruby '2.7.0'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '7.0.3'
 # Use SCSS for stylesheets
-gem 'sass-rails', '~> 5.0'
+gem 'sassc-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .coffee assets and views
@@ -62,7 +62,7 @@ group :development, :test do
 end
 
 group :production do
-  gem 'pg', '~> 0.21' # for Heroku deployment
+  gem 'pg', '~> 1.1' # for Heroku deployment
   gem 'rails_12factor'
 end
 
