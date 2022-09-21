@@ -5,9 +5,9 @@
   %thead
     %tr
       %th Movie Title
-      %th= link_to "Rating"
+      %th.hilite= link_to "Rating"
       %th= link_to "Release Date"
-      %th.hilite More Info
+      %th More Info
   %tbody
     - @movies.each do |movie|
       %tr

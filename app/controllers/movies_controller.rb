@@ -13,6 +13,14 @@ class MoviesController < ApplicationController
   def index
     @movies = Movie.all
   end
+  
+  def rating
+    @movies = Movie.all
+  end
+  
+  def release
+    @movies = Movie.all
+  end
 
   def new
     # default: render 'new' template

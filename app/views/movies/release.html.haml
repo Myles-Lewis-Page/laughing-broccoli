@@ -1,13 +1,15 @@
 -#  This file is app/views/movies/index.html.haml
 %h1 All Movies
 
+
+
 %table#movies
   %thead
     %tr
       %th Movie Title
       %th= link_to "Rating"
-      %th= link_to "Release Date"
-      %th.hilite More Info
+      %th.hilite= link_to "Release Date"
+      %th More Info
   %tbody
     - @movies.each do |movie|
       %tr
