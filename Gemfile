@@ -29,7 +29,7 @@ gem 'bootsnap', '>= 1.1.0', require: false
 gem "iconv", "~> 1.0.3"
 
 # Use Puma as the app server
-gem 'puma', '~> 3.11'
+gem 'puma'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
